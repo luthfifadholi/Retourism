@@ -1,0 +1,467 @@
+INSERT INTO memiliki_budget VALUES (1,1);
+INSERT INTO memiliki_budget VALUES (1,2);
+INSERT INTO memiliki_budget VALUES (1,3);
+INSERT INTO memiliki_budget VALUES (2,2);
+INSERT INTO memiliki_budget VALUES (2,3);
+INSERT INTO memiliki_budget VALUES (3,1);
+INSERT INTO memiliki_budget VALUES (3,2);
+INSERT INTO memiliki_budget VALUES (3,3);
+INSERT INTO memiliki_budget VALUES (4,1);
+INSERT INTO memiliki_budget VALUES (4,2);
+INSERT INTO memiliki_budget VALUES (4,3);
+INSERT INTO memiliki_budget VALUES (5,2);
+INSERT INTO memiliki_budget VALUES (5,3);
+INSERT INTO memiliki_budget VALUES (6,3);
+INSERT INTO memiliki_budget VALUES (7,3);
+INSERT INTO memiliki_budget VALUES (8,3);
+INSERT INTO memiliki_budget VALUES (9,2);
+INSERT INTO memiliki_budget VALUES (9,3);
+INSERT INTO memiliki_budget VALUES (10,2);
+INSERT INTO memiliki_budget VALUES (10,3);
+INSERT INTO memiliki_budget VALUES (11,1);
+INSERT INTO memiliki_budget VALUES (11,2);
+INSERT INTO memiliki_budget VALUES (11,3);
+INSERT INTO memiliki_budget VALUES (12,1);
+INSERT INTO memiliki_budget VALUES (12,2);
+INSERT INTO memiliki_budget VALUES (12,3);
+INSERT INTO memiliki_budget VALUES (13,3);
+INSERT INTO memiliki_budget VALUES (14,1);
+INSERT INTO memiliki_budget VALUES (14,2);
+INSERT INTO memiliki_budget VALUES (14,3);
+INSERT INTO memiliki_budget VALUES (15,1);
+INSERT INTO memiliki_budget VALUES (15,2);
+INSERT INTO memiliki_budget VALUES (15,3);
+INSERT INTO memiliki_budget VALUES (16,1);
+INSERT INTO memiliki_budget VALUES (16,2);
+INSERT INTO memiliki_budget VALUES (16,3);
+INSERT INTO memiliki_budget VALUES (17,1);
+INSERT INTO memiliki_budget VALUES (17,2);
+INSERT INTO memiliki_budget VALUES (17,3);
+INSERT INTO memiliki_budget VALUES (18,1);
+INSERT INTO memiliki_budget VALUES (18,2);
+INSERT INTO memiliki_budget VALUES (18,3);
+INSERT INTO memiliki_budget VALUES (19,1);
+INSERT INTO memiliki_budget VALUES (19,2);
+INSERT INTO memiliki_budget VALUES (19,3);
+INSERT INTO memiliki_budget VALUES (20,1);
+INSERT INTO memiliki_budget VALUES (20,2);
+INSERT INTO memiliki_budget VALUES (20,3);
+INSERT INTO memiliki_budget VALUES (21,1);
+INSERT INTO memiliki_budget VALUES (21,2);
+INSERT INTO memiliki_budget VALUES (21,3);
+INSERT INTO memiliki_budget VALUES (22,1);
+INSERT INTO memiliki_budget VALUES (22,2);
+INSERT INTO memiliki_budget VALUES (22,3);
+INSERT INTO memiliki_budget VALUES (23,1);
+INSERT INTO memiliki_budget VALUES (23,2);
+INSERT INTO memiliki_budget VALUES (23,3);
+INSERT INTO memiliki_budget VALUES (24,1);
+INSERT INTO memiliki_budget VALUES (24,2);
+INSERT INTO memiliki_budget VALUES (24,3);
+INSERT INTO memiliki_budget VALUES (25,1);
+INSERT INTO memiliki_budget VALUES (25,2);
+INSERT INTO memiliki_budget VALUES (25,3);
+
+INSERT INTO memiliki_cuaca VALUES (1,1);
+INSERT INTO memiliki_cuaca VALUES (1,2);
+INSERT INTO memiliki_cuaca VALUES (2,1);
+INSERT INTO memiliki_cuaca VALUES (2,2);
+INSERT INTO memiliki_cuaca VALUES (3,1);
+INSERT INTO memiliki_cuaca VALUES (3,2);
+INSERT INTO memiliki_cuaca VALUES (4,1);
+INSERT INTO memiliki_cuaca VALUES (4,2);
+INSERT INTO memiliki_cuaca VALUES (5,1);
+INSERT INTO memiliki_cuaca VALUES (5,2);
+INSERT INTO memiliki_cuaca VALUES (6,1);
+INSERT INTO memiliki_cuaca VALUES (6,2);
+INSERT INTO memiliki_cuaca VALUES (6,3);
+INSERT INTO memiliki_cuaca VALUES (6,4);
+INSERT INTO memiliki_cuaca VALUES (7,1);
+INSERT INTO memiliki_cuaca VALUES (8,1);
+INSERT INTO memiliki_cuaca VALUES (9,1);
+INSERT INTO memiliki_cuaca VALUES (9,2);
+INSERT INTO memiliki_cuaca VALUES (9,3);
+INSERT INTO memiliki_cuaca VALUES (9,4);
+INSERT INTO memiliki_cuaca VALUES (10,1);
+INSERT INTO memiliki_cuaca VALUES (10,2);
+INSERT INTO memiliki_cuaca VALUES (10,3);
+INSERT INTO memiliki_cuaca VALUES (10,4);
+INSERT INTO memiliki_cuaca VALUES (11,1);
+INSERT INTO memiliki_cuaca VALUES (11,2);
+INSERT INTO memiliki_cuaca VALUES (12,1);
+INSERT INTO memiliki_cuaca VALUES (12,2);
+INSERT INTO memiliki_cuaca VALUES (13,1);
+INSERT INTO memiliki_cuaca VALUES (13,2);
+INSERT INTO memiliki_cuaca VALUES (14,1);
+INSERT INTO memiliki_cuaca VALUES (14,2);
+INSERT INTO memiliki_cuaca VALUES (15,1);
+INSERT INTO memiliki_cuaca VALUES (15,2);
+INSERT INTO memiliki_cuaca VALUES (16,1);
+INSERT INTO memiliki_cuaca VALUES (16,2);
+INSERT INTO memiliki_cuaca VALUES (16,3);
+INSERT INTO memiliki_cuaca VALUES (16,4);
+INSERT INTO memiliki_cuaca VALUES (17,1);
+INSERT INTO memiliki_cuaca VALUES (17,2);
+INSERT INTO memiliki_cuaca VALUES (17,3);
+INSERT INTO memiliki_cuaca VALUES (17,4);
+INSERT INTO memiliki_cuaca VALUES (18,1);
+INSERT INTO memiliki_cuaca VALUES (18,2);
+INSERT INTO memiliki_cuaca VALUES (18,3);
+INSERT INTO memiliki_cuaca VALUES (18,4);
+INSERT INTO memiliki_cuaca VALUES (19,1);
+INSERT INTO memiliki_cuaca VALUES (19,2);
+INSERT INTO memiliki_cuaca VALUES (19,3);
+INSERT INTO memiliki_cuaca VALUES (19,4);
+INSERT INTO memiliki_cuaca VALUES (20,1);
+INSERT INTO memiliki_cuaca VALUES (20,2);
+INSERT INTO memiliki_cuaca VALUES (20,3);
+INSERT INTO memiliki_cuaca VALUES (20,4);
+INSERT INTO memiliki_cuaca VALUES (21,1);
+INSERT INTO memiliki_cuaca VALUES (21,2);
+INSERT INTO memiliki_cuaca VALUES (21,3);
+INSERT INTO memiliki_cuaca VALUES (21,4);
+INSERT INTO memiliki_cuaca VALUES (22,1);
+INSERT INTO memiliki_cuaca VALUES (22,2);
+INSERT INTO memiliki_cuaca VALUES (22,3);
+INSERT INTO memiliki_cuaca VALUES (22,4);
+INSERT INTO memiliki_cuaca VALUES (23,1);
+INSERT INTO memiliki_cuaca VALUES (23,2);
+INSERT INTO memiliki_cuaca VALUES (23,3);
+INSERT INTO memiliki_cuaca VALUES (23,4);
+INSERT INTO memiliki_cuaca VALUES (24,1);
+INSERT INTO memiliki_cuaca VALUES (24,2);
+INSERT INTO memiliki_cuaca VALUES (24,3);
+INSERT INTO memiliki_cuaca VALUES (24,4);
+INSERT INTO memiliki_cuaca VALUES (25,1);
+INSERT INTO memiliki_cuaca VALUES (25,2);
+INSERT INTO memiliki_cuaca VALUES (25,3);
+INSERT INTO memiliki_cuaca VALUES (25,4);
+
+INSERT INTO memiliki_jumlah_pengunjung VALUES (1,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (1,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (2,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (2,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (3,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (3,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (4,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (4,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (5,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (5,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (6,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (6,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (7,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (8,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (9,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (9,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (10,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (10,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (11,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (11,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (12,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (12,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (13,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (13,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (14,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (14,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (15,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (15,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (16,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (16,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (17,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (17,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (18,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (18,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (19,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (19,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (20,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (20,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (21,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (21,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (22,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (22,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (23,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (23,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (24,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (24,2);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (25,1);
+INSERT INTO memiliki_jumlah_pengunjung VALUES (25,2);
+
+INSERT INTO memiliki_umur VALUES (1,1);
+INSERT INTO memiliki_umur VALUES (1,2);
+INSERT INTO memiliki_umur VALUES (2,1);
+INSERT INTO memiliki_umur VALUES (2,2);
+INSERT INTO memiliki_umur VALUES (3,1);
+INSERT INTO memiliki_umur VALUES (3,2);
+INSERT INTO memiliki_umur VALUES (4,1);
+INSERT INTO memiliki_umur VALUES (4,2);
+INSERT INTO memiliki_umur VALUES (5,2);
+INSERT INTO memiliki_umur VALUES (6,1);
+INSERT INTO memiliki_umur VALUES (6,2);
+INSERT INTO memiliki_umur VALUES (7,2);
+INSERT INTO memiliki_umur VALUES (8,2);
+INSERT INTO memiliki_umur VALUES (9,2);
+INSERT INTO memiliki_umur VALUES (10,2);
+INSERT INTO memiliki_umur VALUES (11,1);
+INSERT INTO memiliki_umur VALUES (11,2);
+INSERT INTO memiliki_umur VALUES (12,1);
+INSERT INTO memiliki_umur VALUES (12,2);
+INSERT INTO memiliki_umur VALUES (13,1);
+INSERT INTO memiliki_umur VALUES (13,2);
+INSERT INTO memiliki_umur VALUES (14,1);
+INSERT INTO memiliki_umur VALUES (14,2);
+INSERT INTO memiliki_umur VALUES (15,1);
+INSERT INTO memiliki_umur VALUES (15,2);
+INSERT INTO memiliki_umur VALUES (16,1);
+INSERT INTO memiliki_umur VALUES (16,2);
+INSERT INTO memiliki_umur VALUES (17,1);
+INSERT INTO memiliki_umur VALUES (17,2);
+INSERT INTO memiliki_umur VALUES (18,1);
+INSERT INTO memiliki_umur VALUES (18,2);
+INSERT INTO memiliki_umur VALUES (19,1);
+INSERT INTO memiliki_umur VALUES (19,2);
+INSERT INTO memiliki_umur VALUES (20,1);
+INSERT INTO memiliki_umur VALUES (20,2);
+INSERT INTO memiliki_umur VALUES (21,1);
+INSERT INTO memiliki_umur VALUES (21,2);
+INSERT INTO memiliki_umur VALUES (22,1);
+INSERT INTO memiliki_umur VALUES (22,2);
+INSERT INTO memiliki_umur VALUES (23,1);
+INSERT INTO memiliki_umur VALUES (23,2);
+INSERT INTO memiliki_umur VALUES (24,1);
+INSERT INTO memiliki_umur VALUES (24,2);
+INSERT INTO memiliki_umur VALUES (25,1);
+INSERT INTO memiliki_umur VALUES (25,2);
+
+INSERT INTO memiliki_lama_berkunjung VALUES (1,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (2,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (3,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (4,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (5,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (6,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (7,1);
+INSERT INTO memiliki_lama_berkunjung VALUES (8,1);
+INSERT INTO memiliki_lama_berkunjung VALUES (9,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (10,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (11,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (12,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (13,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (14,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (15,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (16,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (17,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (18,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (19,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (20,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (21,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (22,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (23,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (24,2);
+INSERT INTO memiliki_lama_berkunjung VALUES (25,2);
+
+INSERT INTO memiliki_tujuan VALUES (1,1);
+INSERT INTO memiliki_tujuan VALUES (1,4);
+INSERT INTO memiliki_tujuan VALUES (1,6);
+INSERT INTO memiliki_tujuan VALUES (2,1);
+INSERT INTO memiliki_tujuan VALUES (2,4);
+INSERT INTO memiliki_tujuan VALUES (2,6);
+INSERT INTO memiliki_tujuan VALUES (3,1);
+INSERT INTO memiliki_tujuan VALUES (3,4);
+INSERT INTO memiliki_tujuan VALUES (3,6);
+INSERT INTO memiliki_tujuan VALUES (4,1);
+INSERT INTO memiliki_tujuan VALUES (4,4);
+INSERT INTO memiliki_tujuan VALUES (4,6);
+INSERT INTO memiliki_tujuan VALUES (5,6);
+INSERT INTO memiliki_tujuan VALUES (5,7);
+INSERT INTO memiliki_tujuan VALUES (6,1);
+INSERT INTO memiliki_tujuan VALUES (6,6);
+INSERT INTO memiliki_tujuan VALUES (7,6);
+INSERT INTO memiliki_tujuan VALUES (8,6);
+INSERT INTO memiliki_tujuan VALUES (9,7);
+INSERT INTO memiliki_tujuan VALUES (10,7);
+INSERT INTO memiliki_tujuan VALUES (11,6);
+INSERT INTO memiliki_tujuan VALUES (12,6);
+INSERT INTO memiliki_tujuan VALUES (13,6);
+INSERT INTO memiliki_tujuan VALUES (13,7);
+INSERT INTO memiliki_tujuan VALUES (14,6);
+INSERT INTO memiliki_tujuan VALUES (14,7);
+INSERT INTO memiliki_tujuan VALUES (15,1);
+INSERT INTO memiliki_tujuan VALUES (15,6);
+INSERT INTO memiliki_tujuan VALUES (16,2);
+INSERT INTO memiliki_tujuan VALUES (16,3);
+INSERT INTO memiliki_tujuan VALUES (16,5);
+INSERT INTO memiliki_tujuan VALUES (16,6);
+INSERT INTO memiliki_tujuan VALUES (17,2);
+INSERT INTO memiliki_tujuan VALUES (17,3);
+INSERT INTO memiliki_tujuan VALUES (17,5);
+INSERT INTO memiliki_tujuan VALUES (17,6);
+INSERT INTO memiliki_tujuan VALUES (18,2);
+INSERT INTO memiliki_tujuan VALUES (18,3);
+INSERT INTO memiliki_tujuan VALUES (18,5);
+INSERT INTO memiliki_tujuan VALUES (18,6);
+INSERT INTO memiliki_tujuan VALUES (19,2);
+INSERT INTO memiliki_tujuan VALUES (19,3);
+INSERT INTO memiliki_tujuan VALUES (19,5);
+INSERT INTO memiliki_tujuan VALUES (19,6);
+INSERT INTO memiliki_tujuan VALUES (20,2);
+INSERT INTO memiliki_tujuan VALUES (20,3);
+INSERT INTO memiliki_tujuan VALUES (20,5);
+INSERT INTO memiliki_tujuan VALUES (20,6);
+INSERT INTO memiliki_tujuan VALUES (21,1);
+INSERT INTO memiliki_tujuan VALUES (21,4);
+INSERT INTO memiliki_tujuan VALUES (22,1);
+INSERT INTO memiliki_tujuan VALUES (22,4);
+INSERT INTO memiliki_tujuan VALUES (23,1);
+INSERT INTO memiliki_tujuan VALUES (23,4);
+INSERT INTO memiliki_tujuan VALUES (24,1);
+INSERT INTO memiliki_tujuan VALUES (24,4);
+INSERT INTO memiliki_tujuan VALUES (25,1);
+INSERT INTO memiliki_tujuan VALUES (25,6);
+
+INSERT INTO memiliki_tema VALUES (1,2);
+INSERT INTO memiliki_tema VALUES (1,3);
+INSERT INTO memiliki_tema VALUES (1,4);
+INSERT INTO memiliki_tema VALUES (1,8);
+INSERT INTO memiliki_tema VALUES (1,11);
+INSERT INTO memiliki_tema VALUES (2,2);
+INSERT INTO memiliki_tema VALUES (2,3);
+INSERT INTO memiliki_tema VALUES (2,4);
+INSERT INTO memiliki_tema VALUES (2,8);
+INSERT INTO memiliki_tema VALUES (2,11);
+INSERT INTO memiliki_tema VALUES (3,2);
+INSERT INTO memiliki_tema VALUES (3,3);
+INSERT INTO memiliki_tema VALUES (3,4);
+INSERT INTO memiliki_tema VALUES (3,8);
+INSERT INTO memiliki_tema VALUES (3,11);
+INSERT INTO memiliki_tema VALUES (4,2);
+INSERT INTO memiliki_tema VALUES (4,3);
+INSERT INTO memiliki_tema VALUES (4,4);
+INSERT INTO memiliki_tema VALUES (4,8);
+INSERT INTO memiliki_tema VALUES (4,11);
+INSERT INTO memiliki_tema VALUES (5,1);
+INSERT INTO memiliki_tema VALUES (5,7);
+INSERT INTO memiliki_tema VALUES (5,10);
+INSERT INTO memiliki_tema VALUES (6,2);
+INSERT INTO memiliki_tema VALUES (6,3);
+INSERT INTO memiliki_tema VALUES (6,4);
+INSERT INTO memiliki_tema VALUES (6,5);
+INSERT INTO memiliki_tema VALUES (7,1);
+INSERT INTO memiliki_tema VALUES (7,7);
+INSERT INTO memiliki_tema VALUES (8,1);
+INSERT INTO memiliki_tema VALUES (8,7);
+INSERT INTO memiliki_tema VALUES (9,3);
+INSERT INTO memiliki_tema VALUES (9,5);
+INSERT INTO memiliki_tema VALUES (9,10);
+INSERT INTO memiliki_tema VALUES (10,3);
+INSERT INTO memiliki_tema VALUES (10,5);
+INSERT INTO memiliki_tema VALUES (10,10);
+INSERT INTO memiliki_tema VALUES (11,1);
+INSERT INTO memiliki_tema VALUES (11,3);
+INSERT INTO memiliki_tema VALUES (11,7);
+INSERT INTO memiliki_tema VALUES (11,9);
+INSERT INTO memiliki_tema VALUES (12,1);
+INSERT INTO memiliki_tema VALUES (12,3);
+INSERT INTO memiliki_tema VALUES (12,7);
+INSERT INTO memiliki_tema VALUES (12,9);
+INSERT INTO memiliki_tema VALUES (13,2);
+INSERT INTO memiliki_tema VALUES (13,3);
+INSERT INTO memiliki_tema VALUES (13,5);
+INSERT INTO memiliki_tema VALUES (13,7);
+INSERT INTO memiliki_tema VALUES (13,10);
+INSERT INTO memiliki_tema VALUES (14,2);
+INSERT INTO memiliki_tema VALUES (14,3);
+INSERT INTO memiliki_tema VALUES (14,5);
+INSERT INTO memiliki_tema VALUES (14,10);
+INSERT INTO memiliki_tema VALUES (15,4);
+INSERT INTO memiliki_tema VALUES (15,8);
+INSERT INTO memiliki_tema VALUES (15,11);
+INSERT INTO memiliki_tema VALUES (16,2);
+INSERT INTO memiliki_tema VALUES (16,3);
+INSERT INTO memiliki_tema VALUES (16,5);
+INSERT INTO memiliki_tema VALUES (16,9);
+INSERT INTO memiliki_tema VALUES (17,2);
+INSERT INTO memiliki_tema VALUES (17,3);
+INSERT INTO memiliki_tema VALUES (17,5);
+INSERT INTO memiliki_tema VALUES (17,9);
+INSERT INTO memiliki_tema VALUES (18,2);
+INSERT INTO memiliki_tema VALUES (18,3);
+INSERT INTO memiliki_tema VALUES (18,5);
+INSERT INTO memiliki_tema VALUES (18,9);
+INSERT INTO memiliki_tema VALUES (19,2);
+INSERT INTO memiliki_tema VALUES (19,3);
+INSERT INTO memiliki_tema VALUES (19,5);
+INSERT INTO memiliki_tema VALUES (19,9);
+INSERT INTO memiliki_tema VALUES (20,2);
+INSERT INTO memiliki_tema VALUES (20,3);
+INSERT INTO memiliki_tema VALUES (20,5);
+INSERT INTO memiliki_tema VALUES (20,9);
+INSERT INTO memiliki_tema VALUES (21,2);
+INSERT INTO memiliki_tema VALUES (21,4);
+INSERT INTO memiliki_tema VALUES (21,8);
+INSERT INTO memiliki_tema VALUES (22,2);
+INSERT INTO memiliki_tema VALUES (22,4);
+INSERT INTO memiliki_tema VALUES (22,8);
+INSERT INTO memiliki_tema VALUES (23,2);
+INSERT INTO memiliki_tema VALUES (23,4);
+INSERT INTO memiliki_tema VALUES (23,8);
+INSERT INTO memiliki_tema VALUES (24,2);
+INSERT INTO memiliki_tema VALUES (24,4);
+INSERT INTO memiliki_tema VALUES (24,8);
+INSERT INTO memiliki_tema VALUES (25,2);
+INSERT INTO memiliki_tema VALUES (25,3);
+INSERT INTO memiliki_tema VALUES (25,4);
+INSERT INTO memiliki_tema VALUES (25,5);
+
+SELECT ?nama ?lokasi ?htm ?deskripsi
+WHERE {
+   ?id vocab:destinasi_nama "Candi Ijo".
+   ?id vocab:destinasi_nama ?nama.
+   ?id vocab:destinasi_lokasi ?lokasi.
+   ?id vocab:destinasi_htm ?htm.
+   ?id vocab:destinasi_deskripsi ?deskripsi
+}
+
+SELECT DISTINCT * FROM destinasi WHERE id IN (SELECT id_destinasi FROM memiliki_tujuan WHERE id_tujuan = 5) AND id IN (SELECT id_destinasi FROM memiliki_jumlah_pengunjung WHERE id_jumlah = 1) AND id IN (SELECT id_destinasi FROM memiliki_cuaca WHERE id_cuaca = 4) AND id IN (SELECT id_destinasi FROM memiliki_tema WHERE id_tema = 5) AND id IN (SELECT id_destinasi FROM memiliki_budget WHERE id_budget = 2)
+
+
+   ?id_tb_m_jumlah_pengunjung vocab:memiliki_jumlah_pengunjung_id_jumlah 2.
+   ?id_tb_m_jumlah vocab:memiliki_jumlah_pengunjung_id_destinasi ?c.
+
+   SELECT DISTINCT ?nama ?lokasi ?htm ?deskripsi WHERE {
+   ?id_tb_m_cuaca vocab:memiliki_cuaca_id_cuaca 1.
+   ?id_tb_m_cuaca vocab:memiliki_cuaca_id_destinasi ?a.
+   ?id_tb_m_tema vocab:memiliki_tema_id_tema ?temax. FILTER (?temax in (4,7)).
+   ?id_tb_m_tema vocab:memiliki_tema_id_destinasi ?b.
+
+   ?id_destinasi vocab:destinasi_id ?idx. FILTER (?idx in (?a) && ?idx in (?b)).
+   ?id_destinasi vocab:destinasi_nama ?nama.
+   ?id_destinasi vocab:destinasi_lokasi ?lokasi.
+   ?id_destinasi vocab:destinasi_htm ?htm.
+   ?id_destinasi vocab:destinasi_deskripsi ?deskripsi
+}
+
+SELECT DISTINCT ?e WHERE {
+   ?id_tb_m_cuaca vocab:memiliki_cuaca_id_cuaca 4.
+   ?id_tb_m_cuaca vocab:memiliki_cuaca_id_destinasi ?a.
+   ?id_tb_m_tema vocab:memiliki_tema_id_tema ?temax. FILTER (?temax in (4,7))
+   ?id_tb_m_tema vocab:memiliki_tema_id_destinasi ?b.
+   ?id_tb_m_jumlah_pengunjung vocab:memiliki_jumlah_pengunjung_id_jumlah 2.
+   ?id_tb_m_jumlah_pengunjung vocab:memiliki_jumlah_pengunjung_id_destinasi ?c.
+   ?id_tb_m_budget vocab:memiliki_budget_id_budget 2.
+   ?id_tb_m_budget vocab:memiliki_budget_id_destinasi ?d.
+   ?id_tb_m_tujuan vocab:memiliki_tujuan_id_tujuan 2.
+   ?id_tb_m_tujuan vocab:memiliki_tujuan_id_destinasi ?e.
+}
+
+SELECT DISTINCT ?d WHERE {
+?id_tb_m_cuaca vocab:memiliki_cuaca_id_cuaca 4;
+vocab:memiliki_cuaca_id_destinasi ?a.
+?id_tb_m_tema vocab:memiliki_tema_id_tema ?temax. FILTER (?temax in (4,7))
+?id_tb_m_tema vocab:memiliki_tema_id_destinasi ?b.
+?id_tb_m_jumlah_pengunjung vocab:memiliki_jumlah_pengunjung_id_jumlah 2;
+vocab:memiliki_jumlah_pengunjung_id_destinasi ?c.
+?id_tb_m_budget vocab:memiliki_budget_id_budget 2;
+vocab:memiliki_budget_id_destinasi ?d.
+?id_tb_m_tujuan vocab:memiliki_tujuan_id_tujuan 2;
+vocab:memiliki_tujuan_id_destinasi ?e.
+
+}

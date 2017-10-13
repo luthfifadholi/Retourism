@@ -1,0 +1,482 @@
+@prefix map: <#> .
+@prefix db: <> .
+@prefix vocab: <vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql://localhost/retourism";
+	d2rq:username "root";
+	jdbc:autoReconnect "true";
+	jdbc:zeroDateTimeBehavior "convertToNull";
+	.
+
+# Table budget
+map:budget a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "budget/@@budget.id@@";
+	d2rq:class vocab:budget;
+	d2rq:classDefinitionLabel "budget";
+	.
+map:budget__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:budget;
+	d2rq:property rdfs:label;
+	d2rq:pattern "budget #@@budget.id@@";
+	.
+map:budget_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:budget;
+	d2rq:property vocab:budget_id;
+	d2rq:propertyDefinitionLabel "budget id";
+	d2rq:column "budget.id";
+	d2rq:datatype xsd:integer;
+	.
+map:budget_budget a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:budget;
+	d2rq:property vocab:budget_budget;
+	d2rq:propertyDefinitionLabel "budget budget";
+	d2rq:column "budget.budget";
+	.
+
+# Table cuaca
+map:cuaca a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "cuaca/@@cuaca.id@@";
+	d2rq:class vocab:cuaca;
+	d2rq:classDefinitionLabel "cuaca";
+	.
+map:cuaca__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:cuaca;
+	d2rq:property rdfs:label;
+	d2rq:pattern "cuaca #@@cuaca.id@@";
+	.
+map:cuaca_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:cuaca;
+	d2rq:property vocab:cuaca_id;
+	d2rq:propertyDefinitionLabel "cuaca id";
+	d2rq:column "cuaca.id";
+	d2rq:datatype xsd:integer;
+	.
+map:cuaca_cuaca a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:cuaca;
+	d2rq:property vocab:cuaca_cuaca;
+	d2rq:propertyDefinitionLabel "cuaca cuaca";
+	d2rq:column "cuaca.cuaca";
+	.
+
+# Table destinasi
+map:destinasi a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "destinasi/@@destinasi.id@@";
+	d2rq:class vocab:destinasi;
+	d2rq:classDefinitionLabel "destinasi";
+	.
+map:destinasi__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property rdfs:label;
+	d2rq:pattern "destinasi #@@destinasi.id@@";
+	.
+map:destinasi_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property vocab:destinasi_id;
+	d2rq:propertyDefinitionLabel "destinasi id";
+	d2rq:column "destinasi.id";
+	d2rq:datatype xsd:integer;
+	.
+map:destinasi_nama a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property vocab:destinasi_nama;
+	d2rq:propertyDefinitionLabel "destinasi nama";
+	d2rq:column "destinasi.nama";
+	.
+map:destinasi_lokasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property vocab:destinasi_lokasi;
+	d2rq:propertyDefinitionLabel "destinasi lokasi";
+	d2rq:column "destinasi.lokasi";
+	.
+map:destinasi_htm a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property vocab:destinasi_htm;
+	d2rq:propertyDefinitionLabel "destinasi htm";
+	d2rq:column "destinasi.htm";
+	d2rq:datatype xsd:integer;
+	.
+map:destinasi_deskripsi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:destinasi;
+	d2rq:property vocab:destinasi_deskripsi;
+	d2rq:propertyDefinitionLabel "destinasi deskripsi";
+	d2rq:column "destinasi.deskripsi";
+	.
+
+# Table jumlah_pengunjung
+map:jumlah_pengunjung a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "jumlah_pengunjung/@@jumlah_pengunjung.id@@";
+	d2rq:class vocab:jumlah_pengunjung;
+	d2rq:classDefinitionLabel "jumlah_pengunjung";
+	.
+map:jumlah_pengunjung__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:jumlah_pengunjung;
+	d2rq:property rdfs:label;
+	d2rq:pattern "jumlah_pengunjung #@@jumlah_pengunjung.id@@";
+	.
+map:jumlah_pengunjung_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:jumlah_pengunjung;
+	d2rq:property vocab:jumlah_pengunjung_id;
+	d2rq:propertyDefinitionLabel "jumlah_pengunjung id";
+	d2rq:column "jumlah_pengunjung.id";
+	d2rq:datatype xsd:integer;
+	.
+map:jumlah_pengunjung_jumlah a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:jumlah_pengunjung;
+	d2rq:property vocab:jumlah_pengunjung_jumlah;
+	d2rq:propertyDefinitionLabel "jumlah_pengunjung jumlah";
+	d2rq:column "jumlah_pengunjung.jumlah";
+	.
+
+# Table kriteria_umur
+map:kriteria_umur a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "kriteria_umur/@@kriteria_umur.id@@";
+	d2rq:class vocab:kriteria_umur;
+	d2rq:classDefinitionLabel "kriteria_umur";
+	.
+map:kriteria_umur__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:kriteria_umur;
+	d2rq:property rdfs:label;
+	d2rq:pattern "kriteria_umur #@@kriteria_umur.id@@";
+	.
+map:kriteria_umur_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:kriteria_umur;
+	d2rq:property vocab:kriteria_umur_id;
+	d2rq:propertyDefinitionLabel "kriteria_umur id";
+	d2rq:column "kriteria_umur.id";
+	d2rq:datatype xsd:integer;
+	.
+map:kriteria_umur_kriteria a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:kriteria_umur;
+	d2rq:property vocab:kriteria_umur_kriteria;
+	d2rq:propertyDefinitionLabel "kriteria_umur kriteria";
+	d2rq:column "kriteria_umur.kriteria";
+	.
+
+# Table lama_berkunjung
+map:lama_berkunjung a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "lama_berkunjung/@@lama_berkunjung.id@@";
+	d2rq:class vocab:lama_berkunjung;
+	d2rq:classDefinitionLabel "lama_berkunjung";
+	.
+map:lama_berkunjung__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:lama_berkunjung;
+	d2rq:property rdfs:label;
+	d2rq:pattern "lama_berkunjung #@@lama_berkunjung.id@@";
+	.
+map:lama_berkunjung_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:lama_berkunjung;
+	d2rq:property vocab:lama_berkunjung_id;
+	d2rq:propertyDefinitionLabel "lama_berkunjung id";
+	d2rq:column "lama_berkunjung.id";
+	d2rq:datatype xsd:integer;
+	.
+map:lama_berkunjung_lama a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:lama_berkunjung;
+	d2rq:property vocab:lama_berkunjung_lama;
+	d2rq:propertyDefinitionLabel "lama_berkunjung lama";
+	d2rq:column "lama_berkunjung.lama";
+	.
+
+# Table memiliki_budget
+map:memiliki_budget a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_budget/@@memiliki_budget.id@@";
+	d2rq:class vocab:memiliki_budget;
+	d2rq:classDefinitionLabel "memiliki_budget";
+	.
+map:memiliki_budget__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_budget;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_budget #@@memiliki_budget.id@@";
+	.
+map:memiliki_budget_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_budget;
+	d2rq:property vocab:memiliki_budget_id;
+	d2rq:propertyDefinitionLabel "memiliki_budget id";
+	d2rq:column "memiliki_budget.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_budget_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_budget;
+	d2rq:property vocab:memiliki_budget_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_budget id_destinasi";
+	d2rq:column "memiliki_budget.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_budget_id_budget a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_budget;
+	d2rq:property vocab:memiliki_budget_id_budget;
+	d2rq:propertyDefinitionLabel "memiliki_budget id_budget";
+	d2rq:column "memiliki_budget.id_budget";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_cuaca
+map:memiliki_cuaca a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_cuaca/@@memiliki_cuaca.id@@";
+	d2rq:class vocab:memiliki_cuaca;
+	d2rq:classDefinitionLabel "memiliki_cuaca";
+	.
+map:memiliki_cuaca__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_cuaca;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_cuaca #@@memiliki_cuaca.id@@";
+	.
+map:memiliki_cuaca_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_cuaca;
+	d2rq:property vocab:memiliki_cuaca_id;
+	d2rq:propertyDefinitionLabel "memiliki_cuaca id";
+	d2rq:column "memiliki_cuaca.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_cuaca_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_cuaca;
+	d2rq:property vocab:memiliki_cuaca_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_cuaca id_destinasi";
+	d2rq:column "memiliki_cuaca.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_cuaca_id_cuaca a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_cuaca;
+	d2rq:property vocab:memiliki_cuaca_id_cuaca;
+	d2rq:propertyDefinitionLabel "memiliki_cuaca id_cuaca";
+	d2rq:column "memiliki_cuaca.id_cuaca";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_jumlah_pengunjung
+map:memiliki_jumlah_pengunjung a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_jumlah_pengunjung/@@memiliki_jumlah_pengunjung.id@@";
+	d2rq:class vocab:memiliki_jumlah_pengunjung;
+	d2rq:classDefinitionLabel "memiliki_jumlah_pengunjung";
+	.
+map:memiliki_jumlah_pengunjung__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_jumlah_pengunjung;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_jumlah_pengunjung #@@memiliki_jumlah_pengunjung.id@@";
+	.
+map:memiliki_jumlah_pengunjung_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_jumlah_pengunjung;
+	d2rq:property vocab:memiliki_jumlah_pengunjung_id;
+	d2rq:propertyDefinitionLabel "memiliki_jumlah_pengunjung id";
+	d2rq:column "memiliki_jumlah_pengunjung.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_jumlah_pengunjung_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_jumlah_pengunjung;
+	d2rq:property vocab:memiliki_jumlah_pengunjung_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_jumlah_pengunjung id_destinasi";
+	d2rq:column "memiliki_jumlah_pengunjung.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_jumlah_pengunjung_id_jumlah a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_jumlah_pengunjung;
+	d2rq:property vocab:memiliki_jumlah_pengunjung_id_jumlah;
+	d2rq:propertyDefinitionLabel "memiliki_jumlah_pengunjung id_jumlah";
+	d2rq:column "memiliki_jumlah_pengunjung.id_jumlah";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_lama_berkunjung
+map:memiliki_lama_berkunjung a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_lama_berkunjung/@@memiliki_lama_berkunjung.id@@";
+	d2rq:class vocab:memiliki_lama_berkunjung;
+	d2rq:classDefinitionLabel "memiliki_lama_berkunjung";
+	.
+map:memiliki_lama_berkunjung__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_lama_berkunjung;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_lama_berkunjung #@@memiliki_lama_berkunjung.id@@";
+	.
+map:memiliki_lama_berkunjung_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_lama_berkunjung;
+	d2rq:property vocab:memiliki_lama_berkunjung_id;
+	d2rq:propertyDefinitionLabel "memiliki_lama_berkunjung id";
+	d2rq:column "memiliki_lama_berkunjung.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_lama_berkunjung_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_lama_berkunjung;
+	d2rq:property vocab:memiliki_lama_berkunjung_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_lama_berkunjung id_destinasi";
+	d2rq:column "memiliki_lama_berkunjung.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_lama_berkunjung_id_lama_berkunjung a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_lama_berkunjung;
+	d2rq:property vocab:memiliki_lama_berkunjung_id_lama_berkunjung;
+	d2rq:propertyDefinitionLabel "memiliki_lama_berkunjung id_lama_berkunjung";
+	d2rq:column "memiliki_lama_berkunjung.id_lama_berkunjung";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_tema
+map:memiliki_tema a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_tema/@@memiliki_tema.id@@";
+	d2rq:class vocab:memiliki_tema;
+	d2rq:classDefinitionLabel "memiliki_tema";
+	.
+map:memiliki_tema__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tema;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_tema #@@memiliki_tema.id@@";
+	.
+map:memiliki_tema_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tema;
+	d2rq:property vocab:memiliki_tema_id;
+	d2rq:propertyDefinitionLabel "memiliki_tema id";
+	d2rq:column "memiliki_tema.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_tema_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tema;
+	d2rq:property vocab:memiliki_tema_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_tema id_destinasi";
+	d2rq:column "memiliki_tema.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_tema_id_tema a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tema;
+	d2rq:property vocab:memiliki_tema_id_tema;
+	d2rq:propertyDefinitionLabel "memiliki_tema id_tema";
+	d2rq:column "memiliki_tema.id_tema";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_tujuan
+map:memiliki_tujuan a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_tujuan/@@memiliki_tujuan.id@@";
+	d2rq:class vocab:memiliki_tujuan;
+	d2rq:classDefinitionLabel "memiliki_tujuan";
+	.
+map:memiliki_tujuan__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tujuan;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_tujuan #@@memiliki_tujuan.id@@";
+	.
+map:memiliki_tujuan_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tujuan;
+	d2rq:property vocab:memiliki_tujuan_id;
+	d2rq:propertyDefinitionLabel "memiliki_tujuan id";
+	d2rq:column "memiliki_tujuan.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_tujuan_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tujuan;
+	d2rq:property vocab:memiliki_tujuan_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_tujuan id_destinasi";
+	d2rq:column "memiliki_tujuan.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_tujuan_id_tujuan a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_tujuan;
+	d2rq:property vocab:memiliki_tujuan_id_tujuan;
+	d2rq:propertyDefinitionLabel "memiliki_tujuan id_tujuan";
+	d2rq:column "memiliki_tujuan.id_tujuan";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table memiliki_umur
+map:memiliki_umur a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "memiliki_umur/@@memiliki_umur.id@@";
+	d2rq:class vocab:memiliki_umur;
+	d2rq:classDefinitionLabel "memiliki_umur";
+	.
+map:memiliki_umur__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_umur;
+	d2rq:property rdfs:label;
+	d2rq:pattern "memiliki_umur #@@memiliki_umur.id@@";
+	.
+map:memiliki_umur_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_umur;
+	d2rq:property vocab:memiliki_umur_id;
+	d2rq:propertyDefinitionLabel "memiliki_umur id";
+	d2rq:column "memiliki_umur.id";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_umur_id_destinasi a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_umur;
+	d2rq:property vocab:memiliki_umur_id_destinasi;
+	d2rq:propertyDefinitionLabel "memiliki_umur id_destinasi";
+	d2rq:column "memiliki_umur.id_destinasi";
+	d2rq:datatype xsd:integer;
+	.
+map:memiliki_umur_id_umur a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:memiliki_umur;
+	d2rq:property vocab:memiliki_umur_id_umur;
+	d2rq:propertyDefinitionLabel "memiliki_umur id_umur";
+	d2rq:column "memiliki_umur.id_umur";
+	d2rq:datatype xsd:integer;
+	.
+
+# Table tema_destinasi
+map:tema_destinasi a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "tema_destinasi/@@tema_destinasi.id@@";
+	d2rq:class vocab:tema_destinasi;
+	d2rq:classDefinitionLabel "tema_destinasi";
+	.
+map:tema_destinasi__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tema_destinasi;
+	d2rq:property rdfs:label;
+	d2rq:pattern "tema_destinasi #@@tema_destinasi.id@@";
+	.
+map:tema_destinasi_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tema_destinasi;
+	d2rq:property vocab:tema_destinasi_id;
+	d2rq:propertyDefinitionLabel "tema_destinasi id";
+	d2rq:column "tema_destinasi.id";
+	d2rq:datatype xsd:integer;
+	.
+map:tema_destinasi_tema a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tema_destinasi;
+	d2rq:property vocab:tema_destinasi_tema;
+	d2rq:propertyDefinitionLabel "tema_destinasi tema";
+	d2rq:column "tema_destinasi.tema";
+	.
+
+# Table tujuan_destinasi
+map:tujuan_destinasi a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "tujuan_destinasi/@@tujuan_destinasi.id@@";
+	d2rq:class vocab:tujuan_destinasi;
+	d2rq:classDefinitionLabel "tujuan_destinasi";
+	.
+map:tujuan_destinasi__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tujuan_destinasi;
+	d2rq:property rdfs:label;
+	d2rq:pattern "tujuan_destinasi #@@tujuan_destinasi.id@@";
+	.
+map:tujuan_destinasi_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tujuan_destinasi;
+	d2rq:property vocab:tujuan_destinasi_id;
+	d2rq:propertyDefinitionLabel "tujuan_destinasi id";
+	d2rq:column "tujuan_destinasi.id";
+	d2rq:datatype xsd:integer;
+	.
+map:tujuan_destinasi_tujuan a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tujuan_destinasi;
+	d2rq:property vocab:tujuan_destinasi_tujuan;
+	d2rq:propertyDefinitionLabel "tujuan_destinasi tujuan";
+	d2rq:column "tujuan_destinasi.tujuan";
+	.
+
